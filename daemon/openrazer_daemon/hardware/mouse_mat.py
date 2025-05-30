@@ -43,7 +43,7 @@ class RazerFireflyV2Pro(__RazerDeviceBrightnessSuspend):
     USB_VID = 0x1532
     USB_PID = 0x0C08
     HAS_MATRIX = True
-    MATRIX_DIMS = [1, 15]
+    MATRIX_DIMS = [1, 17]
     METHODS = ['get_device_type_mousemat', 'set_wave_effect', 'set_static_effect', 'set_spectrum_effect',
                'set_none_effect', 'set_breath_random_effect', 'set_breath_single_effect', 'set_breath_dual_effect',
                'set_custom_effect', 'set_key_row', 'set_reactive_effect', 'trigger_reactive_effect']
